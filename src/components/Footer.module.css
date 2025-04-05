@@ -1,0 +1,12 @@
+.container_footer{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    background-color: #0F3460;
+    color: #ffff;
+}
+
+.icons > a{
+    margin: .5em;
+}

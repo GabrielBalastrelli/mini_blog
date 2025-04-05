@@ -1,0 +1,14 @@
+.container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_form > label > input {
+    width: 890px;
+}
+
+button {
+    margin-bottom: 15px;
+}

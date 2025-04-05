@@ -1,0 +1,44 @@
+.dashboard{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard h2 {
+    font-size: 2.3em;
+    margin-bottom: .5rem;
+}
+
+.dashboard p {
+     margin-bottom: 1em;
+}
+
+.btn_acoes{
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffff;
+    border-top: 2px solid #F8D210; 
+    border-right: 2px solid #00F5D4; 
+    border-bottom: 2px solid #00F5D4; 
+    border-left: 2px solid #F8D210;  
+}
+.post_header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    width: 80%;
+    padding: 10px;
+}
+
+.post_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    width: 80%;
+    padding: 10px;
+}

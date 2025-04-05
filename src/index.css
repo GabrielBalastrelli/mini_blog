@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #1A1A2E, #0F3460);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 10px #00F5D4; /* Efeito glow */
+}
+
+input, textarea{
+    border-top: 5px solid #F8D210; /* Rosa Neon para a borda superior */
+    border-right: 5px solid #00F5D4; /* Verde Neon para a borda direita */
+    border-bottom: 5px solid #00F5D4; /* Amarelo Neon para a borda inferior */
+    border-left: 5px solid #F8D210; /* Rosa Forte para a borda esquerda */
+    color: #E94560;   
+    margin-top: 2.5px; 
+    margin-bottom: 2.5px;     
+}
+
+textarea{
+    background-color: transparent;
+    font-size: 20px;
+}
+
+form{
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+label span{
+    font-weight: bold;
+    text-align : left;
+    margin-bottom: 0.3em;
+}
+
+h1{
+    text-align : center;
+    color: #ffff;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px #00F5D4, -2px -2px #F8D210; }
+    25% { text-shadow: -2px -2px #00F5D4, 2px 2px #F8D210; }
+    50% { text-shadow: 2px -2px #00F5D4, -2px 2px #F8D210; }
+    75% { text-shadow: -2px 2px #00F5D4, 2px -2px #F8D210; }
+    100% { text-shadow: 2px 2px #00F5D4, -2px -2px #F8D210; }
+}
+
+button{
+    background: transparent;
+    color: #00F5D4;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #00F5D4;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;  
+    transition: 0.3s;
+    animation: glitch 2s  infinite alternate;
+} 
+
+h1, h2 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nopost{
+    text-align: center;
+}
+
+.nopost p {
+    margin-bottom: 1.5em;
+}
+
+.nopost a {
+    padding: 10px 20px;
+}
