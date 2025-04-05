@@ -1,12 +1,72 @@
-# React + Vite
+# 📝 Mini Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto de **blog moderno e funcional** desenvolvido com **JavaScript + React**, que utiliza **Firebase** como backend para autenticação e banco de dados em tempo real. Para fins de estudo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Descrição
 
-## Expanding the ESLint configuration
+O **Mini Blog** é uma aplicação web onde usuários podem criar contas, fazer login, publicar artigos e gerenciar suas próprias postagens. O sistema possui **controle de rotas públicas e privadas**, permitindo que apenas usuários autenticados tenham acesso a funcionalidades como **criar postagens**, **editar** ou **excluir conteúdo** e **acessar o painel de controle (dashboard)**.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Tudo isso construído com **React**, **CSS**, **React Router DOM** e integração total com **Firebase**.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- ⚛️ **React**
+- 🧠 **JavaScript (ES6+)**
+- 🌐 **HTML5**
+- 🎨 **CSS3 / CSS Modules**
+- 🔥 **Firebase (Authentication + Firestore)**
+- 📦 **React Router DOM**
+
+---
+
+## 🔐 Funcionalidades
+
+- ✅ Cadastro de usuários
+- 🔓 Login e Logout com Firebase Auth
+- 🔐 Áreas privadas acessíveis apenas após login
+- 📝 Criação, edição e exclusão de postagens
+- 📂 Dashboard exclusivo para o usuário logado
+- 🌍 Visualização pública das postagens por qualquer visitante
+
+---
+
+## 🖼️ Prints da aplicação
+
+### 🔹 Página Inicial
+![Página Inicial](./assets_readme/login.png)
+
+### 🔹 Cadastro
+![Cadastro](.assets_readme/register.png)
+
+### 🔹 Criar Post
+![Criar Post](./assets_readme/createPost.png)
+
+### 🔹 Dashboard
+![Dashboard](./assets_readme/dashboard.png)
+
+---
+
+## 🎬 Demonstração em GIF
+
+![Demonstração do projeto](./assets_readme/gif1.gif)
+
+---
+
+## 📦 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/GabrielBalastrelli/mini_blog.git
+
+# Acesse a pasta
+cd mini_blog
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
