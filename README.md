@@ -69,4 +69,4 @@ cd mini_blog
 npm install
 
 # Inicie o servidor de desenvolvimento
-npm start
+npm run dev
