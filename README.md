@@ -37,13 +37,13 @@ O **Mini Blog** é uma aplicação web onde usuários podem criar contas, fazer 
 ## 🖼️ Prints da aplicação
 
 ### 🔹 Página Inicial
-![Página Inicial](./assets_readme/login.png)
+![Página Inicial](./assets_readme/login.PNG)
 
 ### 🔹 Cadastro
-![Cadastro](./assets_readme/register.png)
+![Cadastro](./assets_readme/register.PNG)
 
 ### 🔹 Criar Post
-![Criar Post](./assets_readme/createPost.png)
+![Criar Post](./assets_readme/createPost.PNG)
 
 ### 🔹 Dashboard
 ![Dashboard](./assets_readme/dashboard.png)
